@@ -68,6 +68,26 @@ header {
   color: #fff;
 }
 
+.footer-text {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+}
+
+.copyright {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  border-top: 0;
+  background-color: #c1c1c1;
+}
+
+.copyright a:hover {
+  text-decoration: underline;
+  color: rgb(3, 82, 82);
+}
+
 /* RESPONSINVE */
 @media only screen and (max-width: 468px) {
   header {
