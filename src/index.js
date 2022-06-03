@@ -2,7 +2,7 @@ import './style.css';
 import displayData from './modules/loadData.js';
 import addLike from './modules/addLike.js';
 import displayLikes from './modules/viewLikes.js';
-import {popup} from './modules/commentPopup.js';
+import { popup } from './modules/commentPopup.js';
 import itemCounter from './modules/itemCounter.js';
 
 // load data from API

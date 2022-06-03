@@ -83,6 +83,6 @@ const popup = async ({
 
 const onlyKey = async (item) => {
   console.log(item);
-}
+};
 
-export { popup, onlyKey};
+export { popup, onlyKey };
