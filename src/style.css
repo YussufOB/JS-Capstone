@@ -90,7 +90,7 @@ header {
 
 .like-icon {
   text-decoration: none;
-  background: url('./assets/heart.svg') no-repeat center top;
+  /* background: url('./assets/heart.svg') no-repeat center top; */
   background-size: 20px 20px;
   display: block;
   filter: invert(1);

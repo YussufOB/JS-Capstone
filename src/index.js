@@ -1,12 +1,13 @@
 import './style.css';
 import displayData from './modules/loadData.js';
 
+// load data from API
 const getData = async () => (await fetch('https://api.tvmaze.com/shows/169/seasons')).json();
 const title = document.querySelector('.nav-links a:nth-child(1)');
 
 window.onload = displayData().then(() => {
-    displayLikes();
-    title.textContent = `Breaking Bad (${itemCounter()})`;
+    // displayLikes();
+    // title.textContent = `Breaking Bad (${itemCounter()})`;
     const Commentbuttons = document.querySelectorAll('.comments-button');
     Commentbuttons.forEach((button) => {
       button.addEventListener('click', async (e) => {
