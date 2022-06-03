@@ -1,6 +1,8 @@
 # CineMart
 > This web application based on an external API. We selected an API that provides data about a topic that we like and built the web app around it. The web app will have 2 user interfaces.
 
+[Preview](./Screenshot%20.png)
+
 # Table of contents
 - [Table of contents](#table-of-contents)
 - [Overview](#overview)
@@ -19,6 +21,9 @@
     - [Show your support](#show-your-support)
     - [:memo: License](#memo-license)
 # Overview
+[live-link](./JS-Capstone.mp4)
+
+[liv-link](https://yussufob.github.io/JS-Capstone/)
 
 # learning objects
  - [ ] Use JavaScript to make websites dynamic and build basic single page apps.
@@ -80,4 +85,4 @@ Contributions, issues, and feature requests are welcome!
 ### Show your support
 Give a :star:️ if you like this project!
 ### :memo: License
-This project is MIT licensed.
+This project is [MIT](./MIT.md) licensed.
