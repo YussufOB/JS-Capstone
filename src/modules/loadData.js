@@ -14,7 +14,6 @@ const displayData = async () => {
                             </div>
                             <div class="buttons">
                                 <button class="comments-button" type="button" id="${element.id}">Comments</button>
-                                <button type="button" >Reservation</button>
                             </div>
                         </li>`;
     });

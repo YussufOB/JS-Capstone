@@ -1,8 +1,8 @@
-import addComment from './addComment.js';
+import addComment from './addComments';
 import postComment from './postComment.js';
 import loadComments from './loadComments.js';
 
-export default async ({
+const popup = async ({
   info1, info2, info3, info4, imageLink, number,
 }) => {
   const commentsData = await loadComments(number);
@@ -80,3 +80,9 @@ export default async ({
     });
   });
 };
+
+const onlyKey = async (item) => {
+  console.log(item);
+}
+
+export { popup, onlyKey};
