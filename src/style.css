@@ -88,6 +88,64 @@ header {
   color: rgb(3, 82, 82);
 }
 
+.like-icon {
+  text-decoration: none;
+  background: url('./assets/heart.svg') no-repeat center top;
+  background-size: 20px 20px;
+  display: block;
+  filter: invert(1);
+}
+
+.like-icon:hover {
+  filter: none;
+}
+
+.list {
+  padding: 5% 0;
+  list-style: none;
+  display: flex;
+  gap: 20vh 10vw;
+  flex-flow: row wrap;
+  width: 80%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.list-img {
+  width: 300px;
+  height: 400px;
+}
+
+.list-item {
+  border: 5px inset var(--secondary);
+  transition: all 0.2s ease-out;
+  box-shadow: 0 0 10px black;
+}
+
+.list-item:hover {
+  border: 5px inset var(--hoverLight);
+  transform: scale(1.02);
+  box-shadow: 0 0 20px black;
+}
+
+.series-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px;
+}
+
+.series-title p {
+  font-size: 1.3rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 3px;
+}
+
 /* RESPONSINVE */
 @media only screen and (max-width: 468px) {
   header {
